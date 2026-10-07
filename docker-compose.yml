@@ -2,7 +2,7 @@ services:
   web:
     build: .
     ports:
-      - "3000:3000"
+      - "127.0.0.1:3000:3000"
     environment:
       API_BASE_URL: ${DOCKER_API_BASE_URL:-http://host.docker.internal:5001/api}
     extra_hosts:
