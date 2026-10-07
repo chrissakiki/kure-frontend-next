@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Home",
+    "path": "/",
+    "delay": 100
+  },
+  {
+    "title": "Services & Prices",
+    "path": "/services",
+    "delay": 125
+  },
+  {
+    "title": "Packages",
+    "path": "/packages",
+    "delay": 150
+  },
+  {
+    "title": "Gift Vouchers",
+    "path": "/vouchers",
+    "delay": 175
+  },
+  {
+    "title": "Locations",
+    "path": "/locations",
+    "delay": 200
+  },
+  {
+    "title": "Corporate & Events",
+    "path": "/corporate-events",
+    "delay": 225
+  },
+  {
+    "title": "KURE Academy",
+    "path": "/academy",
+    "delay": 250
+  },
+  {
+    "title": "About",
+    "path": "/about",
+    "delay": 275
+  },
+  {
+    "title": "Careers",
+    "path": "/careers",
+    "delay": 290
+  },
+  {
+    "title": "Testimonials",
+    "path": "/testimonials",
+    "delay": 300
+  },
+  {
+    "title": "FAQ",
+    "path": "/faq",
+    "delay": 325
+  },
+  {
+    "title": "Terms & Conditions",
+    "path": "/terms",
+    "delay": 350
+  },
+  {
+    "title": "Privacy Policy",
+    "path": "/privacy",
+    "delay": 400
+  }
+]

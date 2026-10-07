@@ -1,0 +1,11 @@
+services:
+  web:
+    environment:
+      API_BASE_URL: http://api:5001/api
+    networks:
+      - kure
+
+networks:
+  kure:
+    external: true
+    name: kure

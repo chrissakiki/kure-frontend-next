@@ -1,0 +1,1 @@
+export const BOOKING_MODAL_HREF = '$OPEN_BOOKING_MODAL';
