@@ -108,8 +108,9 @@ const ServicesPrices = ({ data }: { data: ServicesPageData }) => {
                         {row.description ? ` · ${row.description}` : ''}
                       </span>
                       <span className='text-[22px] font-medium text-theme-primary'>
-                        {symbol}
-                        {row.price}
+                        {row.priceTo != null
+                          ? `${symbol}${row.price} / ${symbol}${row.priceTo}`
+                          : `${symbol}${row.price}`}
                       </span>
                     </div>
                   ))}

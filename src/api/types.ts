@@ -182,6 +182,7 @@ export type CategoryPrice = {
   label: string;
   description: string | null;
   price: number;
+  priceTo: number | null;
   kind: 'SINGLE' | 'PACKAGE';
   sortOrder: number;
   isActive: boolean;
